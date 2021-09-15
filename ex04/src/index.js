@@ -1,7 +1,9 @@
 function main() {
     // Only change code below this line
-        console.log('Hello World');
+        x = 10;
+        y = x;
     // Only change code above this line
+    return [x, y];
 }
 
 console.log(main());
